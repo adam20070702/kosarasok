@@ -18,7 +18,10 @@
             <DataGrid x:Name="tabla"/>
         </StackPanel>
         <StackPanel Grid.Row="2">
-            
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="1 Összes játékos" Width="230" Height="30" Margin="5" Click="osszes_Click"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
